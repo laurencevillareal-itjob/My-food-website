@@ -5,10 +5,23 @@
         <title>About Us</title>
     </head>
     <body>
-        <header>
+        <header> <!--Start of Header-->
             <h1>About Us</h1>
-        </header>
-        <main>
+
+            <div> <!--Start of DIV for audio embeded (background music)-->
+                <audio autoplay loop>
+                    <source src="./audio/Legacy_of_Viva.mp3">
+                </audio>
+            </div> <!--End of DIV for audio embeded (background music)-->
+
+            <div> <!--Start of DIV video-->
+                <video width="600" height="400" autoplay loop>
+                    <source src="./video/CT_about_us.mp4">
+                </video>
+            </div> <!--End of DIV video-->
+        </header> <!--End of Header-->
+
+        <main> <!--Start of Main-->
             <article>
             <h2>Our Story</h2>
           
@@ -29,11 +42,8 @@
             </ul>
             </article>
             
-            <video controls width="600" height="400">
-                <source src="./video/CT_about_us.mp4" type="video/mp4">
-              
-            </video>
+            
   
-        </main>
+        </main> <!--End of Main-->
     </body>
 </html>
